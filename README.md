@@ -1,1 +1,1 @@
-Protecting Shopping Preference With Differential privacy
+Protecting Your Shopping Preference With Differential privacy
