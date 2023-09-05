@@ -1,0 +1,111 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23 Feb, 2023, 11:12:17 PM
+    Author     : amals
+*/
+*{
+	margin:0;
+	padding:0;
+	font-family:'Dosis',sans-serif;
+}
+.flybuy
+{
+	width:80%;
+	margin:auto;
+}
+.navbar
+{
+	margin:10px auto;
+	display:flex;
+	align-items:center;
+	position:sticky;
+	top:0;
+	left:0;
+	background:pink;
+	box-shadow:0 6px 2px rgba(0,0,0,0.06);
+	
+	
+}
+ul{
+	flex:1;
+	text-align:right;
+        width:100%;
+}
+ul li{
+	display:inline-block;
+	list-style:none;
+	margin: 0 px;
+	border:2px solid #478778;
+	border-radius:20px;
+        
+}
+ul li a{
+	text-decoration:none;
+	color:#333;
+	padding:0 10px;
+	position:relative;
+	
+}
+ul li a.active{
+	color:#097969;
+}
+ul li a ::after{
+	content:' ';
+	width:10px;
+	height:10px;
+	background:#f14a60;
+	position:absolute;
+	left:50%;
+	transform:translate(-50%);
+	top:-55px;
+	transition:0.5;
+}
+ul li a:hover {
+  background:white;
+  box-shadow:0 0 10px white,0 0 40px white,0 0 80px white;
+  transition-delay:1s;
+  border-radius:20px;
+}
+ul li a:hover::after{
+	width:100%;
+	
+}
+.banner
+{
+	display:flex;
+	margin-top:80px;
+
+}
+.left-column,.right-column
+{
+	flex-basis:50%;
+}
+.right-column img{
+	width:100%;
+}
+.content h1{
+	font-size:60px;
+	font-weight:100;
+	margin-top:5px;
+	margin-bottom:15px;
+	color:#097969;
+}
+.content h4{
+	font-size:20px;
+	font-weight:100;
+	margin-top:5px;
+	margin-bottom:15px;
+	color:#232d60;
+}
+.content p{
+	font-size:20px;
+	color:#6a7199;
+}
+.content {
+	margin-left:-10%;
+	margin-top:-30%;
+}
